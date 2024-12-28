@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       <div
         className="bg-cover bg-center h-[50vh] flex items-center justify-center"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/patient.jpg')",
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/fam.webp')",
         }}
       >
         <h2 className="text-8xl md:text-6xl text-white">Special Offers</h2>
@@ -17,24 +17,15 @@ const Home: React.FC = () => {
         <div className="lg:w-2/3 p-6 shadow-md bg-white max-h-120 overflow-y-auto">
           <div className="flex items-center mb-6">
             <div className='rounded-lg'>
+              <h3 className="text-2xl font-bold mb-6">About Special Offers</h3>
               <p>
-              Read the reviews below to learn why people have Langhorne Family Smiles as their go-to choice for comprehensive dentistry in Langhorne, Pennsylvania. We also welcome you to share your experience with us after your visit. Call us today at 215-752-5505 to schedule an appointment with our dentist, Dr. Jayashree Thorat. We cannot wait to make you smile.
+              Interested in saving money on treatments for your smile? If so, check out the patient specials our caring dentist and team in Langhorne, Pennsylvania, currently offer below. If you have any questions about these offers or would like to schedule a consultation with Dr. Jayashree Thorat, please contact Langhorne Family Smiles at 215-752-5505.
               </p>
-              <div className="flex items-left mt-8">
-                <a href="https://app.dentalqore.com/dashr-app-shell/public/action/review/?app=416587938" target="_blank" rel="noopener noreferrer">
-                  <button className="bg-transparent border-2 border-teal-600 text-teal-600 py-2 px-4 rounded hover:bg-teal-600 hover:text-white transition-colors">
-                    Review Us
-                  </button>
-                </a>
+              <div className="flex items-left mt-8 mb-8">
+                <img className="w-1/2 mr-4" src="/zoomspecial.jpg" alt="carecredit-logo" />
+                <img className="w-1/2" src="/newpatientspecial.jpg" alt="cheery-logo" />
               </div>
-              <div className="flex items-center mt-8 space-x-4">
-                <a href="https://g.page/LanghorneFamilySmiles/review?gm" target="_blank" rel="noopener noreferrer">
-                  <img src="/google-icon.svg" className="h-12 w-12 text-red-600 mr-4" />
-                </a>
-                <a href="https://www.facebook.com/pg/LanghorneFamilySmiles/reviews/?ref=page_internal" target="_blank" rel="noopener noreferrer">
-                  <img src="/fb-icon.svg" className="h-12 w-12 text-blue-600" />
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>

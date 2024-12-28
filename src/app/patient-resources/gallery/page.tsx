@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       <div
         className="bg-cover bg-center h-[50vh] flex items-center justify-center"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/finance.webp')",
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/finance.jpg')",
         }}
       >
         <h2 className="text-8xl md:text-6xl text-white">Gallery</h2>
