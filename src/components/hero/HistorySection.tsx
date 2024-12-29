@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 const HistorySection: React.FC = () => {
   return (
     <section className="bg-[#F5F1E4] py-12">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
-        <img alt="Our History" className="w-1/2 lg:w-1/3 rounded shadow-md" height="100" src="/ourhistoryphoto.webp" width="100" />
+        <Image alt="Our History" className="w-1/2 lg:w-1/3 rounded shadow-md" height={100} src="/ourhistoryphoto.webp" width={100} />
         <div className="mt-8 lg:mt-0 lg:ml-12 text-center lg:text-left">
           <h2 className="text-2xl font-bold">OUR HISTORY</h2>
           <p className="mt-4 text-gray-600">
@@ -25,3 +26,4 @@ const HistorySection: React.FC = () => {
 };
 
 export default HistorySection;
+

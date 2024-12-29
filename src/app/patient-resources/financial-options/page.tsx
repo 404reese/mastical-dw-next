@@ -1,7 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import PatientReviews from '@/components/PatientReviews';
-
+import Image from 'next/image';
 const Home: React.FC = () => {
   return (
     <main>
@@ -28,8 +28,8 @@ const Home: React.FC = () => {
               </ul>
               </p>
               <div className="flex items-left mt-8 mb-8">
-                <img className="w-1/3 mr-4" src="/carecredit-logo.svg" alt="carecredit-logo" />
-                <img className="w-1/3" src="/c-logo.webp" alt="cheery-logo" />
+                <Image className="w-1/3 mr-4" src="/carecredit-logo.svg" alt="carecredit-logo" />
+                <Image className="w-1/3" src="/c-logo.webp" alt="cheery-logo" />
               </div>
               <p className="mt-4">
               No insurance? No problem. Our compassionate dentist and team offer a Total Health Dental Plan that covers dental cleanings and X-rays and offers 20% off other treatments.

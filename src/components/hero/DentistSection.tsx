@@ -1,15 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DentistSection: React.FC = () => {
   return (
     <section className="bg-[#F5F1E4] py-12">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
-        <img
+        <Image
           alt="Dr. Jayashree Thorat"
           className="w-full lg:w-1/3 rounded shadow-md"
-          height="400"
+          height={400}
           src="/doctor.jpg"
-          width="300"
+          width={300}
         />
         <div className="mt-8 lg:mt-0 lg:ml-12 text-center lg:text-left">
           <h2 className="text-2xl font-bold text-teal-600 mb-4">Your Dentist in Langhorne, PA</h2>

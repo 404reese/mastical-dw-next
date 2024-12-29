@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 interface NavItem {
@@ -11,7 +12,7 @@ interface NavItem {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState('');
-  const [activeSubDropdown, setActiveSubDropdown] = useState('');
+  const [activeSubDropdown, setActiveSubDropdown] = useState('))');
 
   const navItems: NavItem[] = [
     { label: 'Home', href: '/' },
@@ -115,7 +116,7 @@ const Navbar = () => {
     <nav className="navbar bg-[#F5F1E4] text-black p-4 flex items-center relative z-40">
       {/* Logo */}
       <Link href="/">
-          <img className="h-12 w-auto mr-8" src="/logo.webp" alt="Company Logo" /> {/* Add margin right for space */}
+        <Image className="h-12 w-auto mr-8" src="/logo.webp" alt="Company Logo" width={100} height={100} />
       </Link>
 
       {/* Navigation Links */}
@@ -218,3 +219,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

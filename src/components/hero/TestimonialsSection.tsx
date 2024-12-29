@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 interface Testimonial {
   id: number;
@@ -65,10 +66,12 @@ const TestimonialsSection: React.FC = () => {
           >
             <div key={testimonials[currentIndex].id} className="flex items-center justify-center p-8">
               <div className="flex-none w-1/3 md:w-1/4 p-4">
-                <img
+                <Image
                   src={testimonials[currentIndex].image}
                   alt={testimonials[currentIndex].name}
                   className="rounded-full h-32 w-32"
+                  height={128}
+                  width={128}
                 />
               </div>
               <div className="flex-1 p-4">
@@ -92,3 +95,4 @@ const TestimonialsSection: React.FC = () => {
 };
 
 export default TestimonialsSection;
+

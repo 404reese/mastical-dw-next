@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto text-center">
-        <img
+        <Image
           alt="Langhorne Family Smiles Logo"
           className="mx-auto mb-4"
           height={50}
@@ -58,10 +59,12 @@ const Footer: React.FC = () => {
         <p className="mt-8 text-gray-400 text-sm">
           &copy; 2025 Langhorne Family Smiles. All rights reserved. | Website Design by
           <a href="https://www.mastical.com" target="_blank" rel="noopener noreferrer">
-            <img
+            <Image
               alt="Mastical"
               className="h-6 w-auto inline-block ml-1"
+              height={24}
               src="/mastical-text.png"
+              
             />
           </a>
         </p>
@@ -77,3 +80,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+

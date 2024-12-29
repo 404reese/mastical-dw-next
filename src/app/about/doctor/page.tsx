@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import PatientReviews from '@/components/PatientReviews';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   return (
@@ -16,13 +17,14 @@ const Home: React.FC = () => {
       <div className="p-6 shadow-md bg-[#f8e4dc] border border-[#d6b9a1] rounded-lg flex flex-col lg:flex-row">
         <div className="lg:w-2/3 p-6 shadow-md bg-white max-h-96 overflow-y-auto">
           <div className="flex items-center mb-6">
-            <img
-              alt="Dr. Jayashree Thorat"
-              className="h-24 w-24 rounded-full mr-6"
-              height="100"
-              src="/doctor.jpg"
-              width="100"
-            />
+          <Image
+  alt="Dr. Jayashree Thorat"
+  className="h-48 w-48 rounded-full mr-6"
+  src="/doctor.jpg"
+  height={192}  // Optional, can be omitted if you rely on className
+  width={192}   // Optional, can be omitted if you rely on className
+/>
+
             <div>
               <h3 className="text-2xl font-bold">Jayashree Thorat, DDS</h3>
               <p>

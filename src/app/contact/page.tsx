@@ -1,7 +1,6 @@
 // pages/index.tsx
 import React from 'react';
 import PatientReviews from '@/components/PatientReviews';
-import GreenCard from '@/components/GreenCard';
 
 const Home: React.FC = () => {
   return (

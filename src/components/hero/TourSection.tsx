@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const TourSection: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const TourSection: React.FC = () => {
           VIEW MORE
         </a>
         <div className="mt-8 flex justify-center">
-          <img alt="Dental Office Interior" className="w-full lg:w-1/2 rounded shadow-md" height="400" src="./office.jpg" width="600"/>
+          <Image alt="Dental Office Interior" className="w-full lg:w-1/2 rounded shadow-md" height={400} src="/office.jpg" width={600}/>
         </div>
       </div>
     </section>
@@ -22,3 +23,4 @@ const TourSection: React.FC = () => {
 };
 
 export default TourSection;
+

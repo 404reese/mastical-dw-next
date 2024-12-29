@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import PatientReviews from '@/components/PatientReviews';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   return (
@@ -29,10 +30,10 @@ const Home: React.FC = () => {
               </div>
               <div className="flex items-center mt-8 space-x-4">
                 <a href="https://g.page/LanghorneFamilySmiles/review?gm" target="_blank" rel="noopener noreferrer">
-                  <img src="/google-icon.svg" className="h-12 w-12 text-red-600 mr-4" />
+                  <Image src="/google-icon.svg" className="h-12 w-12 text-red-600 mr-4" alt='google'/>
                 </a>
                 <a href="https://www.facebook.com/pg/LanghorneFamilySmiles/reviews/?ref=page_internal" target="_blank" rel="noopener noreferrer">
-                  <img src="/fb-icon.svg" className="h-12 w-12 text-blue-600" />
+                  <Image src="/fb-icon.svg" className="h-12 w-12 text-blue-600" alt='facebook'/>
                 </a>
               </div>
             </div>
@@ -47,3 +48,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+

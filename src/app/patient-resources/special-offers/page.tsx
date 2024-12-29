@@ -1,5 +1,6 @@
 // pages/index.tsx
 import React from 'react';
+import Image from 'next/image';
 import PatientReviews from '@/components/PatientReviews';
 
 const Home: React.FC = () => {
@@ -22,8 +23,8 @@ const Home: React.FC = () => {
               Interested in saving money on treatments for your smile? If so, check out the patient specials our caring dentist and team in Langhorne, Pennsylvania, currently offer below. If you have any questions about these offers or would like to schedule a consultation with Dr. Jayashree Thorat, please contact Langhorne Family Smiles at 215-752-5505.
               </p>
               <div className="flex items-left mt-8 mb-8">
-                <img className="w-1/2 mr-4" src="/zoomspecial.jpg" alt="carecredit-logo" />
-                <img className="w-1/2" src="/newpatientspecial.jpg" alt="cheery-logo" />
+                <Image className="w-1/2 mr-4" src="/zoomspecial.jpg" alt="carecredit-logo" />
+                <Image className="w-1/2" src="/newpatientspecial.jpg" alt="cheery-logo" />
               </div>
               
             </div>
