@@ -21,7 +21,7 @@ const DentistSection: React.FC = () => {
             MEET THE TEAM
           </a>
         </div>
-        <div className="container mx-auto flex flex-col lg:flex-row items-center bg-gray-800 text-white mt-12 p-8">
+        <div className="container mx-auto flex flex-col items-center bg-gray-800 text-white mt-12 p-8">
           <div className="text-4xl text-center mb-4 mt-4">NO INSURANCE NO PROBLEM <br /> WE ARE HERE TO HELP</div>
           <div className="flex space-x-4">
             <a className="mb-4 mt-4 inline-block bg-transparent text-white border border-white hover:bg-white hover:text-black py-2 px-4 rounded" href="#">
