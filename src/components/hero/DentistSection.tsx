@@ -17,7 +17,7 @@ const DentistSection: React.FC = () => {
           <p className="mt-4 text-gray-600">
             Dr. Thorat is here to provide you with the most comfortable dental care. Her gentle approach and expertise will make your visit a pleasant experience. She is dedicated to your oral health and well-being.
           </p>
-          <a className="mt-4 inline-block bg-teal-600 text-white hover:text-teal-600 hover:bg-gray-200 py-2 px-4 rounded" href="#">
+          <a className="mt-4 inline-block bg-teal-600 text-white hover:text-teal-600 hover:bg-gray-200 py-2 px-4 rounded" href="/about/doctor">
             MEET THE TEAM
           </a>
         </div>

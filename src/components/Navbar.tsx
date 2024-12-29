@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 interface NavItem {
@@ -59,6 +60,19 @@ const Navbar = () => {
             { label: 'Wisdom Teeth Removal', href: '/our-services/dentistry/wisdom-teeth-removal' },
           ] 
         },
+        { 
+          label: 'Restorative Dentistry', 
+          dropdownItems: [
+            { label: 'All On 4 Implants', href: '/our-services/rd/all-on-4-implants' },
+            { label: 'Dental Bridges', href: '/our-services/rd/dental-bridges' },
+            { label: 'Dental Fillings', href: '/our-services/rd/dental-fillings' },
+            { label: 'Dental Implants', href: '/our-services/rd/dental-implants' },
+            { label: 'Dentures', href: '/our-services/rd/dentures' },
+            { label: 'Prosthetic Dentistry', href: '/our-services/rd/prosthetic-dentistry' },
+            { label: 'Root Canal Therapy', href: '/our-services/rd/root-canal-therapy' },
+            { label: 'Same Day Dental Crowns', href: '/our-services/rd/same-day-dental-crowns' },
+          ] 
+        },
       ] 
     },
     { label: 'Contact', href: '/contact' },
@@ -100,7 +114,9 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-[#F5F1E4] text-black p-4 flex items-center relative z-40">
       {/* Logo */}
-      <img className="h-12 w-auto mr-8" src="/logo.webp" alt="Company Logo" /> {/* Add margin right for space */}
+      <Link href="/">
+          <img className="h-12 w-auto mr-8" src="/logo.webp" alt="Company Logo" /> {/* Add margin right for space */}
+      </Link>
 
       {/* Navigation Links */}
       <ul 

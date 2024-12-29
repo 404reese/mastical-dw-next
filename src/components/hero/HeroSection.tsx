@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
         <p className="mt-4 text-2xl">Compassionate Care and 100% Honesty for the Langhorne Area</p>
         <div className="mt-6 space-x-4">
           <a className="bg-teal-600 hover:bg-teal-500 text-white py-2 px-4 rounded transition-colors" href="#">REQUEST AN APPOINTMENT</a>
-          <a className="bg-transparent border border-white hover:bg-white hover:text-teal-600 text-white py-2 px-4 rounded transition-colors" href="#">OUR SERVICES</a>
+          <a className="bg-transparent border border-white hover:bg-white hover:text-teal-600 text-white py-2 px-4 rounded transition-colors" href="/our-services">OUR SERVICES</a>
         </div>
       </div>
     </section>

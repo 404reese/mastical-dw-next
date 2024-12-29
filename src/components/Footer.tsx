@@ -56,9 +56,13 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <p className="mt-8 text-gray-400 text-sm">
-          &copy; 2025 Langhorne Family Smiles. All rights reserved. | Website Design by 
-          <a className="text-teal-600" href="https://mastical.com">
-             Mastical
+          &copy; 2025 Langhorne Family Smiles. All rights reserved. | Website Design by
+          <a href="https://www.mastical.com" target="_blank" rel="noopener noreferrer">
+            <img
+              alt="Mastical"
+              className="h-6 w-auto inline-block ml-1"
+              src="/mastical-text.png"
+            />
           </a>
         </p>
         <a

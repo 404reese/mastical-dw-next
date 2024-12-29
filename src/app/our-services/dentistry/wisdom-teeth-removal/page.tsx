@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/fam.webp')",
         }}
       >
-        <h2 className="text-8xl md:text-6xl text-white">Dental Veneers</h2>
+        <h2 className="text-8xl md:text-6xl text-white">Wisdom Teeth Removal</h2>
       </div>
       <div className="p-6 shadow-md bg-[#f8e4dc] border border-[#d6b9a1] flex flex-col lg:flex-row">
         <div className="lg:w-2/3 p-6 shadow-md bg-[#f1e6dd] max-h-120 overflow-y-auto">

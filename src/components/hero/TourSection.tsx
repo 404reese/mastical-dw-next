@@ -10,7 +10,7 @@ const TourSection: React.FC = () => {
         <p className="mt-4 text-xl text-gray-600 ">
           Our dental office features cutting-edge technology and ample parking with easy access right off the road. Click the button below to see more about your visit!
         </p>
-        <a className="mt-4 inline-block text-white bg-teal-600 hover:bg-white hover:text-teal-600 py-2 px-4 rounded transition-colors" href="#">
+        <a className="mt-4 inline-block text-white bg-teal-600 hover:bg-white hover:text-teal-600 py-2 px-4 rounded transition-colors" href="/about/office">
           VIEW MORE
         </a>
         <div className="mt-8 flex justify-center">
