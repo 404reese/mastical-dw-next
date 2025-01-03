@@ -10,7 +10,7 @@ interface NavItem {
 }
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // eslint-disable-line @typescript-eslint/no-unused-vars
   const [activeDropdown, setActiveDropdown] = useState('');
   const [activeSubDropdown, setActiveSubDropdown] = useState('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -131,7 +131,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Logo"
                 width={150}
                 height={40}
@@ -252,7 +252,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Logo"
                 width={150}
                 height={40}
