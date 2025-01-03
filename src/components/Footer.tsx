@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               className="h-6 w-auto inline-block ml-1"
               height={24}
               src="/mastical-text.png"
-              
+              width={120}
             />
           </a>
         </p>
