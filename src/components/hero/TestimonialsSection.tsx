@@ -14,25 +14,25 @@ const testimonials: Testimonial[] = [
     id: 1,
     text: "I had several issues treated very well. The staff did their jobs very well and added to the overall experience. She did an awesome job! Kudos to her! I would recommend anyone to her office.",
     name: "Ann G.",
-    image: "https://randomuser.me/api/portraits/women/1.jpg",
+    image: "/person-1.jpg",
   },
   {
     id: 2,
     text: "I was very impressed with the professionalism and friendly demeanor of everyone in the office. Great experience! I would definitely recommend this office to anyone!",
     name: "John D.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "/person-1.jpg",
   },
   {
     id: 3,
     text: "I had a great experience at Langhorne Family Smiles. The office is very clean and modern, and the staff is very friendly and knowledgeable. I would definitely recommend this office to anyone!",
     name: "Sarah K.",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    image: "/person-1.jpg",
   },
   {
     id: 4,
     text: "I have been going to this office for a while now and have had nothing but positive experiences. The staff is very friendly and professional. I would definitely recommend this office to anyone!",
     name: "Michael T.",
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
+    image: "/person-1.jpg",
   },
 ];
 
