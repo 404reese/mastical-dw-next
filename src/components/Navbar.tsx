@@ -125,7 +125,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50">
+    <nav className="bg-[#F5F1E4] shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">
@@ -184,7 +184,7 @@ const Navbar = () => {
                   </div>
                 )}
                 {item.dropdownItems && activeDropdown === item.label && (
-                  <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+                  <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-[#F5F1E4] ring-1 ring-black ring-opacity-5 z-50">
                     <div className="py-1">
                       {item.dropdownItems.map((dropdownItem) => (
                         <div key={dropdownItem.label}>
@@ -215,7 +215,7 @@ const Navbar = () => {
                                 </svg>
                               </div>
                               {dropdownItem.dropdownItems && activeSubDropdown === dropdownItem.label && (
-                                <div className="absolute left-full top-0 w-56 ml-0.5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                                <div className="absolute left-full top-0 w-56 ml-0.5 rounded-md shadow-lg bg-[#F5F1E4] ring-1 ring-black ring-opacity-5">
                                   <div className="py-1">
                                     {dropdownItem.dropdownItems.map((subItem) => (
                                       <Link

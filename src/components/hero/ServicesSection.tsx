@@ -11,7 +11,7 @@ const ServicesSection: React.FC = () => {
         </h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Link href="/emergency-dental-care" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/1.webp" alt="Tooth Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">EMERGENCY DENTAL</h3>
               <p className="mt-2 text-gray-600 text-center">
@@ -20,7 +20,7 @@ const ServicesSection: React.FC = () => {
             </div>
           </Link>
           <Link href="/our-services/rd/same-day-dental-crowns" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/2.webp" alt="Dental Crown Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">SAME-DAY CROWNS</h3>
               <p className="mt-2 text-gray-600 text-center">
@@ -29,7 +29,7 @@ const ServicesSection: React.FC = () => {
             </div>
           </Link>
           <Link href="/our-services/cosmetic-dentistry/zoom-teeth-whitening" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/4.webp" alt="Teeth Whitening Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">ZOOM TEETH WHITENING</h3>
               <p className="mt-2 text-gray-600 text-center">
@@ -38,7 +38,7 @@ const ServicesSection: React.FC = () => {
             </div>
           </Link>
           <Link href="/our-services/rd/dental-implants" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/3.webp" alt="Dental Implants Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">DIGITAL GUIDED IMPLANTS</h3>
               <p className="mt-2 text-gray-600 text-center">
@@ -47,7 +47,7 @@ const ServicesSection: React.FC = () => {
             </div>
           </Link>
           <Link href="/our-services/cosmetic-dentistry/invisalign-clear-aligners" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/5.webp" alt="Invisalign Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">INVISALIGN</h3>
               <p className="mt-2 text-gray-600 text-center">
@@ -56,7 +56,7 @@ const ServicesSection: React.FC = () => {
             </div>
           </Link>
           <Link href="/our-services/dentistry/wisdom-teeth-removal" className="block h-full">
-            <div className="bg-white p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
+            <div className="bg-[#F5F1E4] p-6 rounded shadow-md bg-[#F5F1E4] h-full flex flex-col items-center">
               <Image src="/6.webp" alt="Wisdom Teeth Icon" className="mb-4" width={80} height={64} />
               <h3 className="text-xl font-semibold text-center">WISDOM TEETH REMOVAL</h3>
               <p className="mt-2 text-gray-600 text-center">
